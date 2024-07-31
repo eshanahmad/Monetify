@@ -5,7 +5,7 @@ Recreates user uploaded images in the style of Claude Monet using neural style t
 
 Dataset: Trained on a comprehensive dataset of over 1000 of Claude Monet's paintings to accurately capture and replicate his unique artistic style.
 
-Methodology: Utilized neural style transfer to combine the stylistic elements of Monet's work with user-uploaded photos, creating new images that retain the content of the original photos while adopting Monet's distinct visual characteristics.
+Methodology: Employed Generative Adversarial Networks (GANs) to generate initial images. Used Neural Style Transfer (NST) to refine and infuse the stylistic elements of Monet's work with user-uploaded photos, creating new images that retain the content of the original photos while adopting Monet's distinct visual characteristics. Developed a user-friendly interface to allow for efficient and easy use.
 
 Technologies Used: Deep learning frameworks such as PyTorch used to implement GANs, convolutional neural networks (CNNs) like VGG-19, and image processing libraries.
 
